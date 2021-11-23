@@ -4,5 +4,18 @@ class BST:
     self.data = data
     self.left = None
     self.right = None
+
   def add(self, data):
-    print("Adding a node, ", data)
+    if self.data == None:
+      self.data = data
+
+    if self.data > data:
+      if self.left == None:
+        self.left = BST(data)
+      else:
+        self.left.add(data)
+    else:
+      if self.right == None:
+        self.right = BST(data)
+      else:
+        self.right.add(data)
