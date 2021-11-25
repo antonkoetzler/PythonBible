@@ -19,3 +19,4 @@ class BST:
         self.right = BST(data)
       else:
         self.right.add(data)
+  # remove, search, print
