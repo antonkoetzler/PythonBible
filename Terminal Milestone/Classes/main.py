@@ -1,9 +1,17 @@
 # from .BasicClass
 from BasicClass import *
-from BST import *
+from Matrix import *
+
+print()
 
 foo = BasicClass(5)
+print("Printing BasicClass object's data: ", end="", flush=True)
 foo.printData()
 
-tree = BST()
-tree.add(5)
+print()
+
+tree = Matrix(2)
+print("Printing our matrix object")
+tree.print()
+
+print()
