@@ -6,8 +6,7 @@ What I've learned: Tkinter is a simple GUI library for creating small applicatio
 
 or
 
-1. Install tk on PIP ~ pip install tk
-2. (Linux) Install tk
+1. (Linux) Install tk
   - Arch: sudo pacman -S tk
   - Ubuntu: sudo apt-get install tk *or* sudo apt-get install python3-tk
 
